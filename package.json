@@ -1,0 +1,26 @@
+{
+  "name": "material-ui-datepickerdialog-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nozzlegear/material-ui-datepickerdialog-example",
+  "author": "Joshua Harms <joshua@nozzlegear.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run tsc && npm run webpack",
+    "tsc": "tsc -p .",
+    "webpack": "webpack index.js bundle.js"
+  },
+  "dependencies": {
+    "material-ui": "^0.18.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/material-ui": "^0.17.11",
+    "@types/react": "^15.0.29",
+    "@types/react-dom": "^15.5.0",
+    "typescript": "^2.3.4",
+    "webpack": "^2.6.1"
+  }
+}
